@@ -16,6 +16,15 @@ body {
 
 /* header start */
 
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  /* z-index: 100%; */
+  background: #d291fa;
+  border-bottom: 1px solid white;
+}
+
 .navbar {
   display: flex;
   padding: 10px;
@@ -53,7 +62,7 @@ body {
 /* main start */
 
 .wrap {
-  padding: 150px 0 100px 0;
+  padding: 250px 0 100px 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
